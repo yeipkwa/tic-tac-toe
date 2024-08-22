@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+header, .message, .reset{
+  width: 225px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid{
+    background-color: whitesmoke;
+    display: grid;
+    width: 225px;
+    height: 225px;
+    margin: 0 auto;
+    grid-template-columns: Repeat(3, 1fr);
+    grid-template-rows: Repeat(3, 1fr);
+  }
+  
+  .cell {
+    display: flex;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .col-1 {
+    border-left: None;
+  }
+  
+  .row-1 {
+    border-top: None;
+  }
+  
+  .col-3 {
+    border-right: None;
+  }
+  
+  .row-3 {
+    border-bottom: None;
+  }
+
+  .cell span{
+    font-weight: bold;
+  }
+
+  .message, .reset {
+    margin-top: 20px;
+  }
+  
