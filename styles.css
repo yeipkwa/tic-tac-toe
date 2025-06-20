@@ -11,8 +11,9 @@ header, .message, .reset{
 .grid{
     background-color: whitesmoke;
     display: grid;
-    width: 225px;
-    height: 225px;
+    max-width: 550px;
+    min-width: 320px;
+    aspect-ratio: 1/1;
     margin: 0 auto;
     grid-template-columns: Repeat(3, 1fr);
     grid-template-rows: Repeat(3, 1fr);
